@@ -25,9 +25,13 @@ llvm_darwin_filegroup {
 }
 
 llvm_darwin_filegroup {
-    name: "libclang_darwin",
+    name: "libclang_cxx_darwin",
 }
 
 llvm_darwin_filegroup {
     name: "libc++_darwin",
+}
+
+llvm_darwin_filegroup {
+    name: "libc++abi_darwin",
 }
