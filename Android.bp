@@ -35,3 +35,7 @@ llvm_darwin_filegroup {
 llvm_darwin_filegroup {
     name: "libc++abi_darwin",
 }
+
+llvm_darwin_filegroup {
+    name: "libxml2_darwin",
+}
