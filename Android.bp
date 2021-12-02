@@ -57,11 +57,7 @@ license {
 }
 
 llvm_darwin_filegroup {
-    name: "libLLVM_darwin",
-}
-
-llvm_darwin_filegroup {
-    name: "libclang_cxx_darwin",
+    name: "libclang-cpp_darwin",
 }
 
 llvm_darwin_filegroup {
@@ -70,8 +66,4 @@ llvm_darwin_filegroup {
 
 llvm_darwin_filegroup {
     name: "libc++abi_darwin",
-}
-
-llvm_darwin_filegroup {
-    name: "libxml2_darwin",
 }
