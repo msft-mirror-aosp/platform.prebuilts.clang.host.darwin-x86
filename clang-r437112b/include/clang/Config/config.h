@@ -67,7 +67,7 @@
 #define BACKEND_PACKAGE_STRING "LLVM 14.0.1git"
 
 /* Linker version detected at compile time. */
-#define HOST_LINK_VERSION "711"
+#define HOST_LINK_VERSION "650.9"
 
 /* pass --build-id to ld */
 /* #undef ENABLE_LINKER_BUILD_ID */
