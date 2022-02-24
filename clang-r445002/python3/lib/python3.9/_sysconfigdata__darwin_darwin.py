@@ -22,7 +22,7 @@ build_time_vars = {'ABIFLAGS': '',
               "-Wl,-rpath,'@loader_path/../lib'",
  'BUILDEXE': '.exe',
  'BUILDPYTHON': 'python.exe',
- 'BUILD_GNU_TYPE': 'x86_64-apple-darwin20.3.0',
+ 'BUILD_GNU_TYPE': 'x86_64-apple-darwin20.5.0',
  'BYTESTR_DEPS': '\\',
  'CC': 'gcc',
  'CCSHARED': '',
@@ -557,7 +557,7 @@ build_time_vars = {'ABIFLAGS': '',
  'HAVE_X509_VERIFY_PARAM_SET1_HOST': 0,
  'HAVE_ZLIB_COPY': 1,
  'HAVE__GETPTY': 0,
- 'HOST_GNU_TYPE': 'x86_64-apple-darwin20.3.0',
+ 'HOST_GNU_TYPE': 'x86_64-apple-darwin20.5.0',
  'INCLDIRSTOMAKE': '/tmpfs/src/git/out/python3/install/include '
                    '/tmpfs/src/git/out/python3/install/include '
                    '/tmpfs/src/git/out/python3/install/include/python3.9 '
