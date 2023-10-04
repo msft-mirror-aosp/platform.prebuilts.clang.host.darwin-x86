@@ -54,3 +54,7 @@ llvm_darwin_filegroup {
 llvm_darwin_filegroup {
     name: "libc++abi_darwin",
 }
+
+llvm_darwin_filegroup {
+    name: "libsimpleperf_readelf_darwin",
+}
