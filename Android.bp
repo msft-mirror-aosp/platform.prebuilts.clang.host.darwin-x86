@@ -44,7 +44,7 @@ license {
 }
 
 llvm_darwin_filegroup {
-    name: "libclang-cpp_darwin",
+    name: "libclang-cpp_host_darwin",
 }
 
 llvm_darwin_filegroup {
@@ -52,7 +52,15 @@ llvm_darwin_filegroup {
 }
 
 llvm_darwin_filegroup {
-    name: "libc++abi_darwin",
+    name: "libc++abi_shared_darwin",
+}
+
+llvm_darwin_filegroup {
+    name: "libc++_static_darwin",
+}
+
+llvm_darwin_filegroup {
+    name: "libc++abi_static_darwin",
 }
 
 llvm_darwin_filegroup {
