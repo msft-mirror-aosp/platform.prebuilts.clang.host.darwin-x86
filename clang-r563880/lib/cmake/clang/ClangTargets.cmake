@@ -323,7 +323,7 @@ set_target_properties(clangFormat PROPERTIES
 add_library(clangInterpreter STATIC IMPORTED)
 
 set_target_properties(clangInterpreter PROPERTIES
-  INTERFACE_LINK_LIBRARIES "clangAST;clangAnalysis;clangBasic;clangCodeGen;clangDriver;clangFrontend;clangFrontendTool;clangLex;clangParse;clangSema;clangSerialization;LLVMCore;LLVMMC;LLVMOption;LLVMOrcJIT;LLVMOrcDebugging;LLVMOrcShared;LLVMOrcTargetProcess;LLVMSupport;LLVMTarget;LLVMTargetParser;LLVMTransformUtils;LLVMAArch64CodeGen;LLVMAArch64AsmParser;LLVMAArch64Desc;LLVMAArch64Disassembler;LLVMAArch64Info;LLVMAArch64Utils"
+  INTERFACE_LINK_LIBRARIES "clangAST;clangAnalysis;clangBasic;clangCodeGen;clangDriver;clangFrontend;clangFrontendTool;clangLex;clangParse;clangSema;clangSerialization;LLVMCore;LLVMMC;LLVMOption;LLVMOrcJIT;LLVMOrcDebugging;LLVMOrcShared;LLVMOrcTargetProcess;LLVMSupport;LLVMTarget;LLVMTargetParser;LLVMTransformUtils;LLVMX86CodeGen;LLVMX86AsmParser;LLVMX86Desc;LLVMX86Disassembler;LLVMX86Info"
 )
 
 # Create imported target clangSupport
@@ -353,7 +353,7 @@ set_target_properties(clangHandleCXX PROPERTIES
 add_library(clangHandleLLVM STATIC IMPORTED)
 
 set_target_properties(clangHandleLLVM PROPERTIES
-  INTERFACE_LINK_LIBRARIES "LLVMAnalysis;LLVMCodeGen;LLVMCore;LLVMExecutionEngine;LLVMipo;LLVMIRPrinter;LLVMIRReader;LLVMMC;LLVMMCJIT;LLVMObject;LLVMPasses;LLVMRuntimeDyld;LLVMSelectionDAG;LLVMSupport;LLVMTarget;LLVMTargetParser;LLVMTransformUtils;LLVMAArch64CodeGen;LLVMAArch64AsmParser;LLVMAArch64Desc;LLVMAArch64Disassembler;LLVMAArch64Info;LLVMAArch64Utils"
+  INTERFACE_LINK_LIBRARIES "LLVMAnalysis;LLVMCodeGen;LLVMCore;LLVMExecutionEngine;LLVMipo;LLVMIRPrinter;LLVMIRReader;LLVMMC;LLVMMCJIT;LLVMObject;LLVMPasses;LLVMRuntimeDyld;LLVMSelectionDAG;LLVMSupport;LLVMTarget;LLVMTargetParser;LLVMTransformUtils;LLVMX86CodeGen;LLVMX86AsmParser;LLVMX86Desc;LLVMX86Disassembler;LLVMX86Info"
 )
 
 # Create imported target clang-linker-wrapper

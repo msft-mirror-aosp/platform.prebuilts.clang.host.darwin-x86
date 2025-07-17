@@ -19,7 +19,7 @@
 
 /* Target triple LLVM will generate code for by default */
 /* Doesn't use `cmakedefine` because it is allowed to be empty. */
-#define LLVM_DEFAULT_TARGET_TRIPLE "arm64-apple-darwin20.6.0"
+#define LLVM_DEFAULT_TARGET_TRIPLE "x86_64-apple-darwin20.6.0"
 
 /* Define if threads enabled */
 #define LLVM_ENABLE_THREADS 1
@@ -28,28 +28,28 @@
 #define LLVM_HAS_ATOMICS 1
 
 /* Host triple LLVM will be executed on */
-#define LLVM_HOST_TRIPLE "arm64-apple-darwin20.6.0"
+#define LLVM_HOST_TRIPLE "x86_64-apple-darwin20.6.0"
 
 /* LLVM architecture name for the native architecture, if available */
-#define LLVM_NATIVE_ARCH AArch64
+#define LLVM_NATIVE_ARCH X86
 
 /* LLVM name for the native AsmParser init function, if available */
-#define LLVM_NATIVE_ASMPARSER LLVMInitializeAArch64AsmParser
+#define LLVM_NATIVE_ASMPARSER LLVMInitializeX86AsmParser
 
 /* LLVM name for the native AsmPrinter init function, if available */
-#define LLVM_NATIVE_ASMPRINTER LLVMInitializeAArch64AsmPrinter
+#define LLVM_NATIVE_ASMPRINTER LLVMInitializeX86AsmPrinter
 
 /* LLVM name for the native Disassembler init function, if available */
-#define LLVM_NATIVE_DISASSEMBLER LLVMInitializeAArch64Disassembler
+#define LLVM_NATIVE_DISASSEMBLER LLVMInitializeX86Disassembler
 
 /* LLVM name for the native Target init function, if available */
-#define LLVM_NATIVE_TARGET LLVMInitializeAArch64Target
+#define LLVM_NATIVE_TARGET LLVMInitializeX86Target
 
 /* LLVM name for the native TargetInfo init function, if available */
-#define LLVM_NATIVE_TARGETINFO LLVMInitializeAArch64TargetInfo
+#define LLVM_NATIVE_TARGETINFO LLVMInitializeX86TargetInfo
 
 /* LLVM name for the native target MC init function, if available */
-#define LLVM_NATIVE_TARGETMC LLVMInitializeAArch64TargetMC
+#define LLVM_NATIVE_TARGETMC LLVMInitializeX86TargetMC
 
 /* LLVM name for the native target MCA init function, if available */
 /* #undef LLVM_NATIVE_TARGETMCA */

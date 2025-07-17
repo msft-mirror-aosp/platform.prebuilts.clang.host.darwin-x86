@@ -1,7 +1,7 @@
 {
     "attempt_id": 1,
     "best_target_priority": 1,
-    "bid": "13783749",
+    "bid": "13688100",
     "branch": "git_llvm-r563880-release",
     "branch_priority": 1,
     "build_configs": {},
@@ -11,7 +11,7 @@
     "enable_docker": false,
     "git-pull": null,
     "git-server": "https://googleplex-android.googlesource.com",
-    "hostname": "wphb25.hot.corp.google.com",
+    "hostname": "wphc6.hot.corp.google.com",
     "inc-build": false,
     "java-version": "",
     "last_logfile": null,
@@ -42,7 +42,7 @@
                     "name": "goog",
                     "review": "https://googleplex-android.googlesource.com/"
                 },
-                "revision": "79d2e9262fa5c751a95922d202d73e8a503d3761",
+                "revision": "c5447c777fd4811bb1053bfdc024f66f44f51aa4",
                 "upstream": "llvm-r563880-release"
             },
             {
@@ -64,7 +64,7 @@
                     "name": "goog",
                     "review": "https://googleplex-android.googlesource.com/"
                 },
-                "revision": "e4ed541c00706c0108c57921ac4b95ca98e87ec5",
+                "revision": "987e85a3529fe6be878ce391e5708f465e86451f",
                 "upstream": "llvm-r563880-release"
             },
             {
@@ -324,7 +324,7 @@
             },
             {
                 "name": "platform/manifest",
-                "revision": "4bb02e5a6a7d218d97dd44f16812cb3f824c3f9d"
+                "revision": "5a18f9834ca1c555f4ebb31ee71fa30d1db56993"
             }
         ],
         "remotes": [
@@ -339,16 +339,16 @@
             "inProject": "platform/tools/repohooks"
         }
     },
-    "platform": "mac_arm64",
+    "platform": "mac",
     "proof_build": false,
     "repo-dict": {
         "platform/external/libedit": "e05eb8459b1631dcb8d2ac71bca9f6ff3dc2d95a",
         "platform/external/libxml2": "70aef28f676300c9c49c11a6922bb6a8d7701383",
         "platform/external/ncurses": "f52d90dc5f989e833e9d6168691b51a6e322f7ff",
         "platform/external/swig": "dcabe60c35082d3beab79359d48093a23f0b09aa",
-        "platform/external/toolchain-utils": "e4ed541c00706c0108c57921ac4b95ca98e87ec5",
+        "platform/external/toolchain-utils": "987e85a3529fe6be878ce391e5708f465e86451f",
         "platform/external/zstd": "7ce0c0484513223124cb8c4f036ebd7bd18a61f1",
-        "platform/manifest": "4bb02e5a6a7d218d97dd44f16812cb3f824c3f9d",
+        "platform/manifest": "5a18f9834ca1c555f4ebb31ee71fa30d1db56993",
         "platform/prebuilts/build-tools": "33bb76fd08d10f224866f45e5b036da4b2973443",
         "platform/prebuilts/clang/host/darwin-x86": "c89b9c5bc6375ebab012e4f1135d53e3c80621f0",
         "platform/prebuilts/clang/host/linux-x86": "3795f4c8985f2c16f070561ad7d3ce8a318b43cb",
@@ -365,7 +365,7 @@
         "platform/tools/repohooks": "2895b391eb6c83e54f98aabc4c09dc00c9e97c99",
         "toolchain/common": "0bce8b062126242872e9f3fc66760d3f76773c49",
         "toolchain/llvm-project": "5e96669f06077099aa41290cdb4c5e6fa0f59349",
-        "toolchain/llvm_android": "79d2e9262fa5c751a95922d202d73e8a503d3761",
+        "toolchain/llvm_android": "c5447c777fd4811bb1053bfdc024f66f44f51aa4",
         "toolchain/prebuilts/ndk/releases": "70449f53a7e2767c41ad1ad6171ea8f9c239112d",
         "toolchain/xz": "344ec8838064682d8803fa483bee7e4455cbddac"
     },
@@ -374,19 +374,19 @@
     "repo_manifest_file": "default.xml",
     "reset_image_build": false,
     "src_ctrl": "repo",
-    "sync_finish_time": 1752620005.275558,
-    "sync_start_time": 1752619902.7258592,
+    "sync_finish_time": 1750850934.911933,
+    "sync_start_time": 1750850164.999786,
     "sync_succeed": 1,
     "target": {
         "apiary_target": "llvm_darwin_mac",
         "dir_list": [
-            "clang-13783749-darwin-x86.tar.xz",
             "build_info.json",
+            "manifest_13688100.xml",
+            "clang-13688100-darwin-x86.tar.xz",
             "build_times.txt",
+            "clang-13688100-darwin-x86-builders.tar.xz",
             "applied.prop",
-            "clang-13783749-darwin-x86-builders.tar.xz",
             "repo.prop",
-            "manifest_13783749.xml",
             "logs/init_build_config.textproto",
             "logs/execute_build_config.textproto",
             "logs/STARTED",
@@ -403,7 +403,7 @@
             "logs/resource_utilization/disk_usage.json",
             "BUILD_INFO"
         ],
-        "dist-dir": "/buildbot/dist_dirs/git_llvm-r563880-release-mac_arm64-llvm_darwin_mac/13783749",
+        "dist-dir": "/buildbot/dist_dirs/git_llvm-r563880-release-mac-llvm_darwin/13688100",
         "name": "llvm_darwin_mac",
         "rules": [
             [
@@ -413,9 +413,9 @@
                 false
             ]
         ],
-        "storage_path": "/bigstore/android-build/builds/git_llvm-r563880-release-mac_arm64-llvm_darwin_mac/13783749/a471e3855e8488861fe1693f023682999e997ac88e8b8186cc6b6d29962b124e/1",
-        "target_finish_time": 1752631717.901767,
-        "target_start_time": 1752620006.836639,
+        "storage_path": "/bigstore/android-build/builds/git_llvm-r563880-release-mac-llvm_darwin_mac/13688100/8758f497d0ab0c970a6a7b7dfa31acd65a438fdd0ab759c1af32be40d948b401/1",
+        "target_finish_time": 1750864975.043885,
+        "target_start_time": 1750856695.644518,
         "target_status": 1
     },
     "trident_usage": {
@@ -424,52 +424,75 @@
     },
     "use_goma": false,
     "worknode": {
-        "containerId": "L09600030014079603",
-        "creationTimeMillis": "1752598206844",
+        "containerId": "L45500030013410086",
+        "creationTimeMillis": "1750761900816",
         "currentAttempt": {
-            "attemptId": "lebAcbZ6Zr1dNSTnxH1jQg==",
+            "attemptId": "weODah1tuONizkWGesUhAw==",
             "progressMessages": [
                 {
-                    "displayMessage": "Build 13783749 for node L09600030014079603:N20100030233622684 has been inserted",
-                    "messageString": "Build 13783749 for node L09600030014079603:N20100030233622684 has been inserted",
-                    "timeMillis": "1752598220484"
-                },
-                {
-                    "displayMessage": "Build 13783749 for node L09600030014079603:N20100030233622684 has been popped",
-                    "messageString": "Build 13783749 for node L09600030014079603:N20100030233622684 has been popped",
-                    "timeMillis": "1752619899834"
+                    "displayMessage": "Build 13688100 for node L45500030013410086:N55300030224294160 exists and is still pending",
+                    "messageString": "Build 13688100 for node L45500030013410086:N55300030224294160 exists and is still pending",
+                    "timeMillis": "1750848366605"
                 }
             ],
-            "startTimeMillis": "1752598215661"
+            "startTimeMillis": "1750848366401"
         },
-        "heartbeatTimeMillis": "1200000",
-        "id": "L09600030014079603:N20100030233622684",
+        "heartbeatTimeMillis": "86400000",
+        "id": "L45500030013410086:N55300030224294160",
         "inputEdges": [
             {
-                "neighborId": "L09600030014079603:N90700030233622681"
+                "neighborId": "L45500030013410086:N25900030224294157"
             }
         ],
         "isFinal": false,
-        "lastUpdatedMillis": "1752619899915",
+        "lastUpdatedMillis": "1750848366652",
         "nodeClass": "postsubmit",
+        "previousAttempts": [
+            {
+                "attemptId": "SHp5jwjBSAYu0WZSdHjf6g==",
+                "progressMessages": [
+                    {
+                        "displayMessage": "Build 13688100 for node L45500030013410086:N55300030224294160 has been inserted",
+                        "messageString": "Build 13688100 for node L45500030013410086:N55300030224294160 has been inserted",
+                        "timeMillis": "1750761965908"
+                    },
+                    {
+                        "attemptEnded": {
+                            "actionType": "fail",
+                            "reason": "timeout"
+                        },
+                        "timeMillis": "1750848366123"
+                    }
+                ],
+                "startTimeMillis": "1750761960608"
+            }
+        ],
         "retryStatus": {
             "maximumRetries": 4,
-            "retryCount": 0
+            "retryCount": 1
         },
-        "revision": "JONUvZS5S6Dfz6g/MEP8yw==",
+        "revision": "GsUnKuNUzYcKmdjbtCuUlw==",
         "status": "scheduled",
         "statusHistorys": [
             {
                 "status": "created",
-                "timestampMillis": "1752598206844"
+                "timestampMillis": "1750761900816"
             },
             {
                 "status": "pending",
-                "timestampMillis": "1752598215000"
+                "timestampMillis": "1750761960059"
             },
             {
                 "status": "scheduled",
-                "timestampMillis": "1752598215661"
+                "timestampMillis": "1750761960608"
+            },
+            {
+                "status": "pending",
+                "timestampMillis": "1750848366123"
+            },
+            {
+                "status": "scheduled",
+                "timestampMillis": "1750848366401"
             }
         ],
         "workExecutorType": "submittedBuild",
@@ -479,15 +502,15 @@
                 "branchConfig": {
                     "sloTier": "bestEffort"
                 },
-                "buildId": "13783749",
-                "gerritPollerTimestamp": "1752598091038",
+                "buildId": "13688100",
+                "gerritPollerTimestamp": "1750761713770",
                 "manuallyTriggered": false,
                 "syncTimeoutSecond": 5400,
                 "target": {
                     "buildCommands": [
                         "DIST_DIR=%dist_dir% OUT_DIR=out BUILD_NAME=%bid% prebuilts/python/darwin-x86/bin/python3 toolchain/llvm_android/dispatch.py git_main-llvm-toolchain llvm_darwin_mac"
                     ],
-                    "buildPlatform": "mac_arm64",
+                    "buildPlatform": "mac",
                     "disabled": false,
                     "enableReleaseBuildChaining": false,
                     "incrementalBuild": false,
@@ -497,7 +520,7 @@
                     "priority": "low",
                     "product": "darwin",
                     "provenanceInfo": {
-                        "bbcpDepotContextCl": 783172273,
+                        "bbcpDepotContextCl": 746843345,
                         "bbcpFileApiPath": "/google_built/overlay/latest/busytown/google3/wireless/android/launchcontrol/config/branch_config.asciipb",
                         "branchConfigPath": "google3/wireless/android/launchcontrol/config/branch_config.asciipb"
                     },

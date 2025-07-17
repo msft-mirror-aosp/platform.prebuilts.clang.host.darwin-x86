@@ -9,11 +9,11 @@
 
   <project path="toolchain/llvm-project" name="toolchain/llvm-project" revision="5e96669f06077099aa41290cdb4c5e6fa0f59349" upstream="llvm-r563880-release" />
 
-  <project path="toolchain/llvm_android" name="toolchain/llvm_android" revision="79d2e9262fa5c751a95922d202d73e8a503d3761" upstream="llvm-r563880-release" />
+  <project path="toolchain/llvm_android" name="toolchain/llvm_android" revision="c5447c777fd4811bb1053bfdc024f66f44f51aa4" upstream="llvm-r563880-release" />
 
   <project path="toolchain/common" name="toolchain/common" revision="0bce8b062126242872e9f3fc66760d3f76773c49" upstream="llvm-r563880-release" />
 
-  <project path="external/toolchain-utils" name="platform/external/toolchain-utils" revision="e4ed541c00706c0108c57921ac4b95ca98e87ec5" upstream="llvm-r563880-release" />
+  <project path="external/toolchain-utils" name="platform/external/toolchain-utils" revision="987e85a3529fe6be878ce391e5708f465e86451f" upstream="llvm-r563880-release" />
 
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" revision="a127940854eda28ef583009f8d5fd886df2c669f" upstream="llvm-r563880-release" />
 
