@@ -48,6 +48,10 @@ llvm_darwin_filegroup {
 }
 
 llvm_darwin_filegroup {
+    name: "libLLVM_host_darwin",
+}
+
+llvm_darwin_filegroup {
     name: "libc++_darwin",
 }
 
