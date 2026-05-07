@@ -43,30 +43,37 @@ license {
     // large-scale-change unable to identify any license_text files
 }
 
-llvm_darwin_filegroup {
+llvm_host_arch_filegroup {
     name: "libclang-cpp_host_darwin",
+    lib: "lib/libclang-cpp.dylib",
 }
 
-llvm_darwin_filegroup {
+llvm_host_arch_filegroup {
     name: "libLLVM_host_darwin",
+    lib: "lib/libLLVM.dylib",
 }
 
-llvm_darwin_filegroup {
+llvm_host_arch_filegroup {
     name: "libc++_darwin",
+    lib: "lib/libc++.dylib",
 }
 
-llvm_darwin_filegroup {
+llvm_host_arch_filegroup {
     name: "libc++abi_shared_darwin",
+    lib: "lib/libc++abi.dylib",
 }
 
-llvm_darwin_filegroup {
+llvm_host_arch_filegroup {
     name: "libc++_static_darwin",
+    lib: "lib/libc++.a",
 }
 
-llvm_darwin_filegroup {
+llvm_host_arch_filegroup {
     name: "libc++abi_static_darwin",
+    lib: "lib/libc++abi.a",
 }
 
-llvm_darwin_filegroup {
+llvm_host_arch_filegroup {
     name: "libsimpleperf_readelf_darwin",
+    lib: "lib/libsimpleperf_readelf.a",
 }
