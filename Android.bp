@@ -54,11 +54,6 @@ llvm_host_arch_filegroup {
 }
 
 llvm_host_arch_filegroup {
-    name: "libLLVM_libedit_host_darwin",
-    lib: "lib/libedit.so.dylib",
-}
-
-llvm_host_arch_filegroup {
     name: "libc++_darwin",
     lib: "lib/libc++.dylib",
 }
