@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest>
+  <remote name="aosp" fetch="https://android.googlesource.com/" review="https://android.googlesource.com/" />
+  <remote name="aospsuperproject" fetch="https://android.googlesource.com/" review="https://android.googlesource.com/" revision="ndk-kokoro-main" />
+  <default revision="master" remote="aosp" sync-j="4" />
+  <superproject name="platform/superproject" remote="aospsuperproject" />
+  <project path="external/python/cpython3" name="platform/external/python/cpython3" revision="20c3738752477da39dce309eb3083c2091f7b880" />
+  <project path="prebuilts/python/darwin-x86" name="platform/prebuilts/python/darwin-x86" revision="af1cb9d742aad1f364858b7b5cccb8885a04a062" />
+  <project path="toolchain/ndk-kokoro" name="toolchain/ndk-kokoro" revision="f71eb25ea79c56f54b3cdc0f319ac2e7f0efaf1b" />
+</manifest>
