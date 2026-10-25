@@ -64,7 +64,7 @@
 #define CLANG_HAVE_DLADDR 1
 
 /* Linker version detected at compile time. */
-#define HOST_LINK_VERSION "711"
+#define HOST_LINK_VERSION "1167.5"
 
 /* pass --build-id to ld */
 /* #undef ENABLE_LINKER_BUILD_ID */

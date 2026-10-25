@@ -19,7 +19,7 @@
 
 /* Target triple LLVM will generate code for by default */
 /* Doesn't use `cmakedefine` because it is allowed to be empty. */
-#define LLVM_DEFAULT_TARGET_TRIPLE "arm64-apple-darwin20.6.0"
+#define LLVM_DEFAULT_TARGET_TRIPLE "arm64-apple-darwin24.6.0"
 
 /* Define if threads enabled */
 #define LLVM_ENABLE_THREADS 1
@@ -28,7 +28,7 @@
 #define LLVM_HAS_ATOMICS 1
 
 /* Host triple LLVM will be executed on */
-#define LLVM_HOST_TRIPLE "arm64-apple-darwin20.6.0"
+#define LLVM_HOST_TRIPLE "arm64-apple-darwin24.6.0"
 
 /* LLVM architecture name for the native architecture, if available */
 #define LLVM_NATIVE_ARCH AArch64
