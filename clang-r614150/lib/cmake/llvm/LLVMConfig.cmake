@@ -198,11 +198,11 @@ set_property(GLOBAL PROPERTY LLVMBUILD_LIB_DEPS_LLVMOptDriver )
 set_property(GLOBAL PROPERTY LLVMBUILD_LIB_DEPS_Remarks )
 set_property(GLOBAL PROPERTY LLVMBUILD_LIB_DEPS_Polly )
 
-set(LLVM_TARGET_TRIPLE "arm64-apple-darwin20.6.0")
+set(LLVM_TARGET_TRIPLE "arm64-apple-darwin24.6.0")
 
 set(LLVM_TARGET_TRIPLE_ENV "")
 
-set(LLVM_HOST_TRIPLE "arm64-apple-darwin20.6.0")
+set(LLVM_HOST_TRIPLE "arm64-apple-darwin24.6.0")
 
 set(LLVM_ABI_BREAKING_CHECKS WITH_ASSERTS)
 
